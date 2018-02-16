@@ -1,16 +1,36 @@
-header{
+*{
+    margin:0;
+    padding:0;
+}
+
+main{
     background-color: #ffffff;
+    border-color: #dddddd;
 }
-body{
-    background: url(..\Desktop\uofm\basic-portfolio\assets\images\spiration )png;
-}
+
 h1{
+    margin:0;  
     background-color: #4aaaa5;
     color:white;
+    border:1px transparent;
+    font-family: 'Georgia', Times, Times New Roman, serif;  
+}
+.boxed{
+    
 }
 p{
     color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
-h2, h3{
+h2, h3, h4{
     color:#777777;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+footer{
+    background-color: #666666;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center
+}
+img{
+    align-self: baseline
 }
